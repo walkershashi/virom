@@ -1,0 +1,29 @@
+body
+{
+  margin:0;
+  padding: 0;
+}
+.Box
+{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.ul1
+{
+  margin: 0;
+  padding: 0;
+}
+
+.box li{
+  display:inline-block;
+  margin:10px;
+  list-style:none;
+}
+.box li a{
+  text-decoration: none;
+  font-size:40px;
+  transition:0.3s;
+}
+.box li a:hover{
+  color:rgb(78, 153, 61,0.5);
+}
