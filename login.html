@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/ViromLogo.png" alt="logodevirom" width="40px" height:40px>
+     </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" >About Us</a>
+          </li>
+        </nav>
+        <form class="makeform">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="Password">Password</label>
+          <input type="password" class="form-control" name="password" id="exampleFormControlInput1" placeholder="******" required/>
+        </div>
+        <div class="form-group">
+          <label for="Payment">Payment Type</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option></option>
+            <option>Paytm</option>
+            <option>PayPal</option>
+            <option>Tez</option>
+            <option>PhonePay</option>
+            <option>Credit/Debit Cards</option>
+          </select>
+        </div>
+      </form>
+    <button type="submit" name="submit"><a href="index.html">Login</a></button>
+    <h4>Don't have an account.....<a href="signup.html">click here</a></h4>
+  </body>
+</html>
